@@ -1,0 +1,1476 @@
+                                                                        /*
+Theme Name: avance
+Author: Webdev
+Description: theme for Avance
+Version: 1.1
+Avance Theme, (C) 2022 WordPress.org
+*/
+                                                                        
+                                                                        .site {
+                                                                            width: 100%;
+                                                                            margin: 0 auto !important;
+                                                                            position: relative;
+                                                                            max-width: 1600px;
+                                                                            z-index: 99;
+                                                                        }
+                                                                        
+                                                                        .site-header {
+                                                                            padding: 0;
+                                                                            /* width: 100%; */
+                                                                            padding-bottom: 2px;
+                                                                            position: relative;
+                                                                            background: #fff;
+                                                                            box-shadow: 0px 1px 3px -3px #929292;
+                                                                            padding-top: 0px !important;
+                                                                            height: 45px;
+                                                                        }
+                                                                        /* @media screen and (min-width: 61.5625em){
+.site-header {
+    padding: 0;
+    width: 100%;
+}}
+@media screen and (min-width: 56.875em){
+.site-header {
+    padding-right: 4.5455%;
+    padding-left: 4.5455%;
+}}
+@media screen and (min-width: 44.375em){
+.site-header {
+    padding: 3.9375em 7.6923%;
+}} */
+                                                                        
+                                                                        .site-header {
+                                                                            padding: 2.625em 7.6923%;
+                                                                        }
+                                                                        
+                                                                        article,
+                                                                        aside,
+                                                                        details,
+                                                                        figcaption,
+                                                                        figure,
+                                                                        footer,
+                                                                        header,
+                                                                        main,
+                                                                        menu,
+                                                                        nav,
+                                                                        section,
+                                                                        summary {
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        article,
+                                                                        aside,
+                                                                        details,
+                                                                        figcaption,
+                                                                        figure,
+                                                                        footer,
+                                                                        header,
+                                                                        hgroup,
+                                                                        main,
+                                                                        menu,
+                                                                        nav,
+                                                                        section,
+                                                                        summary {
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                        * {
+                                                                            -webkit-box-sizing: border-box;
+                                                                            -moz-box-sizing: border-box;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        user agent stylesheet header {
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            width: 100%;
+                                                                            color: #766f64;
+                                                                            font-size: 18px;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                            overflow-x: hidden;
+                                                                        }
+                                                                        
+                                                                        body,
+                                                                        button,
+                                                                        input,
+                                                                        select,
+                                                                        textarea {
+                                                                            color: #1a1a1a;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                            font-size: 16px;
+                                                                            font-size: 1rem;
+                                                                            line-height: 1.75;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            margin: 0;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            font-size: 14px;
+                                                                            line-height: 1.42857143;
+                                                                            color: #333;
+                                                                            background-color: #fff;
+                                                                        }
+                                                                        
+                                                                        html {
+                                                                            font-family: sans-serif;
+                                                                            -webkit-text-size-adjust: 100%;
+                                                                            -ms-text-size-adjust: 100%;
+                                                                        }
+                                                                        
+                                                                        html {
+                                                                            font-size: 10px;
+                                                                            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                                                                        }
+                                                                        
+                                                                        html {
+                                                                            font-family: sans-serif;
+                                                                            -webkit-text-size-adjust: 100%;
+                                                                            -ms-text-size-adjust: 100%;
+                                                                        }
+                                                                        
+                                                                        .site-header .site-inner {
+                                                                            max-width: 1230px;
+                                                                            margin: auto;
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        .site-inner {
+                                                                            margin: 0 auto;
+                                                                            width: 100%;
+                                                                            position: relative;
+                                                                            max-width: 1600px;
+                                                                            margin-left: 9px !important;
+                                                                        }
+                                                                        
+                                                                        h1.site-title {
+                                                                            margin-top: 5px !important;
+                                                                            margin-bottom: 0px !important;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                        * {
+                                                                            -webkit-box-sizing: border-box;
+                                                                            -moz-box-sizing: border-box;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        user agent stylesheet div {
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            width: 100%;
+                                                                            color: #766f64;
+                                                                            font-size: 18px;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                        }
+                                                                        
+                                                                        body,
+                                                                        button,
+                                                                        input,
+                                                                        select,
+                                                                        textarea {
+                                                                            color: #1a1a1a;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                            font-size: 16px;
+                                                                            font-size: 1rem;
+                                                                            line-height: 1.75;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            margin: 0;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            font-size: 14px;
+                                                                            line-height: 1.42857143;
+                                                                            color: #333;
+                                                                            background-color: #fff;
+                                                                        }
+                                                                        
+                                                                        html {
+                                                                            font-family: sans-serif;
+                                                                            -webkit-text-size-adjust: 100%;
+                                                                            -ms-text-size-adjust: 100%;
+                                                                        }
+                                                                        
+                                                                        html {
+                                                                            font-size: 10px;
+                                                                            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                                                                        }
+                                                                        
+                                                                        html {
+                                                                            font-family: sans-serif;
+                                                                            -webkit-text-size-adjust: 100%;
+                                                                            -ms-text-size-adjust: 100%;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                         :after,
+                                                                         :before {
+                                                                            -webkit-box-sizing: border-box;
+                                                                            -moz-box-sizing: border-box;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                         :after,
+                                                                         :before {
+                                                                            -webkit-box-sizing: border-box;
+                                                                            -moz-box-sizing: border-box;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        .site-header-main {
+                                                                            width: 95%;
+                                                                            margin: auto;
+                                                                            margin-left: 0px !important;
+                                                                        }
+                                                                        
+                                                                        .site-branding {
+                                                                            float: left;
+                                                                            width: 300px;
+                                                                        }
+                                                                        
+                                                                        .brand {
+                                                                            width: 300px;
+                                                                        }
+                                                                        
+                                                                        div#site-header-menu {
+                                                                            margin: 21px 16px 21px 0;
+                                                                            float: right;
+                                                                        }
+                                                                        /* @media screen and (min-width: 56.875em){
+.main-navigation {
+    margin: 0 -0.875em;
+}}
+.main-navigation {
+    font-family: 'Gotham-Book', sans-serif !important;
+}
+@media screen and (min-width: 56.875em){
+.main-navigation .primary-menu, .main-navigation .primary-menu > li {
+    border: 0;
+}} */
+                                                                        
+                                                                        .main-navigation .primary-menu {
+                                                                            border-bottom: 1px solid #d1d1d1;
+                                                                        }
+                                                                        
+                                                                        .main-navigation ul {
+                                                                            list-style: none;
+                                                                            margin: 0;
+                                                                        }
+                                                                        
+                                                                        ul {
+                                                                            list-style: disc;
+                                                                        }
+                                                                        
+                                                                        ul,
+                                                                        ol {
+                                                                            margin: 0 0 1.75em 1.25em;
+                                                                            padding: 0;
+                                                                        }
+                                                                        
+                                                                        ol,
+                                                                        ul {
+                                                                            margin-top: 0;
+                                                                            margin-bottom: 10px;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                        * {
+                                                                            -webkit-box-sizing: border-box;
+                                                                            -moz-box-sizing: border-box;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        user agent stylesheet ul {
+                                                                            display: block;
+                                                                            list-style-type: disc;
+                                                                            margin-block-start: 1em;
+                                                                            margin-block-end: 1em;
+                                                                            margin-inline-start: 0px;
+                                                                            margin-inline-end: 0px;
+                                                                            padding-inline-start: 40px;
+                                                                        }
+
+                                                                        
+                                                                        .main-navigation li {
+                                                                            position: relative;
+                                                                            float: left;
+                                                                            margin: 0 0;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                        * {
+                                                                            -webkit-box-sizing: border-box;
+                                                                            -moz-box-sizing: border-box;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                     li {
+                                                                            display: list-item;
+                                                                            text-align: -webkit-match-parent;
+                                                                        }
+                                                                        
+                                                                        .main-navigation a {
+                                                                            color: #555555;
+                                                                            display: block;
+                                                                            line-height: 1.3125;
+                                                                            outline-offset: -1px;
+                                                                            padding: 7px 12px !important;
+                                                                            font-size: 16px;
+                                                                            text-transform: uppercase;
+                                                                            transition: all linear 0.15s;
+                                                                            position: relative;
+                                                                            z-index: 1000;
+                                                                            margin: 0 5px;
+                                                                            font-family: "Gotham-Light";
+                                                                            font-weight: 600;
+                                                                        }
+                                                                        
+                                                                        a {
+                                                                            text-transform: none;
+                                                                            box-shadow: none !important;
+                                                                        }
+                                                                        
+                                                                        a {
+                                                                            color: #007acc;
+                                                                            text-decoration: none;
+                                                                        }
+                                                                        
+                                                                        a {
+                                                                            background-color: transparent;
+                                                                        }
+                                                                        
+                                                                        *,
+                                                                        *:before,
+                                                                        *:after {
+                                                                            -webkit-box-sizing: inherit;
+                                                                            -moz-box-sizing: inherit;
+                                                                            box-sizing: inherit;
+                                                                        }
+                                                                        
+                                                                        .menu-item:last-child a {
+                                                                            background: #375e80;
+                                                                            color: #fff;
+                                                                            border-radius: 6px;
+                                                                            padding: 7px 20px !important;
+                                                                        }
+                                                                        
+                                                                        .banner_content {
+                                                                            z-index: 9;
+                                                                            position: absolute;
+                                                                            top: 25%;
+                                                                            text-align: center;
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        .homebanner {
+                                                                            color: #fff;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                        }
+                                                                        
+                                                                        .hero_section {
+                                                                            position: relative;
+                                                                            background-color: #000;
+                                                                        }
+                                                                        
+                                                                        .banner {
+                                                                            height: 550px;
+                                                                            background: no-repeat center center;
+                                                                            background-size: cover;
+                                                                        }
+                                                                        
+                                                                        .homebanner .coty {
+                                                                            font-size: 132px;
+                                                                            line-height: 94px;
+                                                                            letter-spacing: 0;
+                                                                            margin-top: 15px;
+                                                                            margin-bottom: 18px;
+                                                                            color: #fff;
+                                                                            font-family: "Gotham-Bold";
+                                                                            font-weight: bold;
+                                                                            font-style: normal;
+                                                                        }
+                                                                        
+                                                                        .homebanner .button {
+                                                                            color: #fff;
+                                                                            border: 3px solid #fff !important;
+                                                                            font-size: 15px;
+                                                                            text-transform: uppercase;
+                                                                            letter-spacing: 0em;
+                                                                            margin-top: 30px;
+                                                                            padding: 11px 40px;
+                                                                            line-height: 15px;
+                                                                            display: inline-block;
+                                                                            text-decoration: none;
+                                                                            cursor: pointer;
+                                                                            margin-right: 15px;
+                                                                            font-family: "Gotham-Light";
+                                                                            font-weight: 600;
+                                                                        }
+                                                                        
+                                                                        .natureSection {
+                                                                            margin: -2px 0 0;
+                                                                            border: none;
+                                                                        }
+                                                                        
+                                                                        .natureSection .boxes {
+                                                                            padding: 0;
+                                                                            height: 422px;
+                                                                        }
+                                                                        
+                                                                        .tile__info {
+                                                                            height: 100%;
+                                                                            display: table;
+                                                                            width: 100%;
+                                                                            cursor: pointer;
+                                                                            background-position: center center;
+                                                                        }
+                                                                        
+                                                                        h2.tile__title {
+                                                                            display: table-cell;
+                                                                            vertical-align: middle;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .natureSection .content {
+                                                                            padding: 0;
+                                                                        }
+                                                                        
+                                                                        .panel .content {
+                                                                            visibility: hidden;
+                                                                            font-size: 18px;
+                                                                            color: #fff;
+                                                                            background: rgba(55, 94, 128, 0.9);
+                                                                            height: 100%;
+                                                                            width: 100%;
+                                                                            position: absolute;
+                                                                            right: 0;
+                                                                            top: 0px;
+                                                                            padding: 0;
+                                                                            transition: bottom 0.8s ease;
+                                                                        }
+                                                                        
+                                                                        .natureSection h2 span {
+                                                                            background: rgba(55, 94, 128, 0.7);
+                                                                            padding: 32px 2px;
+                                                                            color: #fff;
+                                                                            font-size: 24px;
+                                                                            width: 245px;
+                                                                            height: auto;
+                                                                            display: inline-block;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        #locationSection {
+                                                                            padding: 88px 0;
+                                                                        }
+                                                                        
+                                                                        @media screen and (min-width: 56.875em) {
+                                                                            .content-area-home {
+                                                                                text-align: center;
+                                                                                padding: 0;
+                                                                            }
+                                                                        }
+
+                                                                        
+                                                                        .locationContent {
+                                                                            padding: 1% 3%;
+                                                                            text-align: left;
+                                                                            font-size: 16px;
+                                                                            color: #766f64;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                        }
+                                                                        
+                                                                        .imgDiv {
+                                                                            padding: 17%;
+                                                                            width: 15% !important;
+                                                                            height: 50px;
+                                                                        }
+                                                                        
+                                                                        .location {
+                                                                            background: url(images/location-map.jpg) no-repeat;
+                                                                            background-size: cover;
+                                                                        }
+                                                                        
+                                                                        @media (min-width: 1200px) {
+                                                                            .col-lg-6 {
+                                                                                width: 50%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 1366px) {
+                                                                            .locationContent h1 {
+                                                                                margin: 27px 0 11px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .locationContent h1 {
+                                                                            font-size: 30px;
+                                                                            color: #375e80;
+                                                                            margin: 26px 0 20px;
+                                                                        }
+                                                                        
+                                                                        h1 {
+                                                                            color: #766f64;
+                                                                            font-size: 44px;
+                                                                            font-weight: 300;
+                                                                            text-transform: uppercase;
+                                                                            font-family: "Gotham-Light";
+                                                                        }
+                                                                        
+                                                                        .locationHome article {
+                                                                            text-align: left;
+                                                                        }
+                                                                        
+                                                                        article {
+                                                                            font-size: 18px;
+                                                                            text-align: center;
+                                                                            color: #766f64;
+                                                                            font-family: "Gotham-Book", sans-serif;
+                                                                        }
+                                                                        
+                                                                        .readMore a {
+                                                                            background: #83432f;
+                                                                            padding: 6px 25px;
+                                                                            color: #fff !important;
+                                                                            box-shadow: none;
+                                                                            font-size: 16px;
+                                                                            width: auto;
+                                                                            text-decoration: none !important;
+                                                                            display: inline-block;
+                                                                            border-radius: 4px;
+                                                                            font-family: "Gotham-Light";
+                                                                            font-weight: 600;
+                                                                        }
+                                                                        
+                                                                        .banner_content h2 {
+                                                                            color: #fff !important;
+                                                                        }
+                                                                        
+                                                                        .teda:nth-child(even) {
+                                                                            display: flex;
+                                                                            flex-direction: row-reverse;
+                                                                        }
+                                                                        
+                                                                        .container h1 {
+                                                                            position: relative;
+                                                                            margin: 0 auto 26px;
+                                                                            font-size: 34px;
+                                                                            color: #375e80;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .container h1:after {
+                                                                            left: auto;
+                                                                            right: 0;
+                                                                            content: "";
+                                                                            background: #cacaca;
+                                                                            height: 2px;
+                                                                            width: 36%;
+                                                                            position: absolute;
+                                                                            top: 17px;
+                                                                        }
+                                                                        
+                                                                        .container h1:before {
+                                                                            content: "";
+                                                                            background: #cacaca;
+                                                                            height: 2px;
+                                                                            width: 36%;
+                                                                            left: 0;
+                                                                            position: absolute;
+                                                                            top: 17px;
+                                                                        }
+                                                                        
+                                                                        .padding {
+                                                                            padding: 20px;
+                                                                        }
+                                                                        
+                                                                        .txt2 {
+                                                                            width: 180px;
+                                                                            height: 11px;
+                                                                            padding: 10px;
+                                                                        }
+                                                                        
+                                                                        .text-center {
+                                                                            text-align: center;
+                                                                            padding-right: 167px;
+                                                                        }
+                                                                        
+                                                                        .form1 {
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                        }
+                                                                        
+                                                                        .txt1 {
+                                                                            margin-left: 293px;
+                                                                        }
+                                                                        
+                                                                        .form2 {
+                                                                            padding-left: 208px;
+                                                                            padding-right: 55px;
+                                                                        }
+                                                                        
+                                                                        .check1 {
+                                                                            padding-right: 216px;
+                                                                            padding-left: 79px;
+                                                                            padding-bottom: 3px;
+                                                                        }
+                                                                        
+                                                                        .check {
+                                                                            margin-right: 10px;
+                                                                        }
+                                                                        
+                                                                        .btn1 {
+                                                                            margin-bottom: 19px;
+                                                                            width: 229px;
+                                                                            font-size: 21px;
+                                                                            height: 44px;
+                                                                            color: white;
+                                                                            background-color: #83432f !important;
+                                                                            border: none;
+                                                                            border-radius: 5px;
+                                                                        }
+                                                                        
+                                                                        .text-center {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .privacy {
+                                                                            max-width: 1000px;
+                                                                            margin: 0 auto;
+                                                                            padding: 0 20px;
+                                                                            font-size: 18px;
+                                                                        }
+                                                                        
+                                                                        .row {
+                                                                            justify-content: space-evenly;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top {
+                                                                            background-color: #fafafa;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social {
+                                                                            padding: 57px 8%;
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            align-items: center;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social .life-group-logo {
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social .life-group-logo img {
+                                                                            max-width: 330px;
+                                                                            height: 50px;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social img {
+                                                                            object-fit: contain;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social .socialContent ul {
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                        }
+                                                                        
+                                                                        ul {
+                                                                            list-style: disc;
+                                                                        }
+                                                                        
+                                                                        .external_footer .footer-top .footer-social .socialContent ul li {
+                                                                            line-height: 23px;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social .socialContent ul li {
+                                                                            padding: 0 10px;
+                                                                            display: inline-block;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-top .footer-social .socialContent ul li a {
+                                                                            color: #545454;
+                                                                            font-size: 20px;
+                                                                            font-family: "Atten Medium", Arial, sans-serif;
+                                                                            text-decoration: unset;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-middle {
+                                                                            background-color: #fff;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-middle .footer-logo {
+                                                                            display: flex;
+                                                                            padding: 39px 8% 0;
+                                                                            justify-content: space-between;
+                                                                            align-items: center;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-middle .footer-logo .social_links i {
+                                                                            font-size: 40px;
+                                                                            margin-right: 15px;
+                                                                            color: #545454;
+                                                                        }
+                                                                        
+                                                                        .fa {
+                                                                            display: inline-block;
+                                                                            font: normal normal normal 14px/1 FontAwesome;
+                                                                            font-size: inherit;
+                                                                            text-rendering: auto;
+                                                                            -webkit-font-smoothing: antialiased;
+                                                                            -moz-osx-font-smoothing: grayscale;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower {
+                                                                            background-color: #fff;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower .footer-copyright {
+                                                                            padding: 65px 5%;
+                                                                            font-size: 10px;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower .footer-copyright .copyrightLinks-div {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            align-items: baseline;
+                                                                            font-family: 'Atten Book';
+                                                                        }
+                                                                        
+                                                                        .external_footer .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks {
+                                                                            align-items: baseline;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks {
+                                                                            display: flex;
+                                                                        }
+                                                                        
+                                                                        .external_footer .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul {
+                                                                            margin: 0;
+                                                                            line-height: 17px;
+                                                                            margin-bottom: 1rem;
+                                                                            font-size: 0;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul {
+                                                                            padding: 0;
+                                                                            font-size: 0!important;
+                                                                            line-height: 20px!important;
+                                                                        }
+                                                                        
+                                                                        .external_footer .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul li {
+                                                                            line-height: 17px;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul li {
+                                                                            font-size: 12px;
+                                                                            padding: 0 15px 0 0;
+                                                                            display: inline-block;
+                                                                        }
+                                                                        
+                                                                        .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul li a {
+                                                                            color: #545454;
+                                                                            text-decoration: unset;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard {
+                                                                            position: relative;
+                                                                            margin-bottom: 30px;
+                                                                            outline: none;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard {
+                                                                            margin-bottom: 0px !important;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard .cycloneslider-slides {
+                                                                            position: relative;
+                                                                            overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard div[data-cycle-dynamic-height="off"] .cycloneslider-slide-image {
+                                                                            height: 100%;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard .cycloneslider-slide:first-child,
+                                                                        .cycloneslider-template-standard .cycle-sentinel+.cycloneslider-slide {
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard .cycloneslider-slide img {
+                                                                            display: block;
+                                                                            margin: 0 auto;
+                                                                            padding: 0;
+                                                                            max-width: 100%;
+                                                                            border: 0;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-template-standard .cycloneslider-slide img {
+                                                                            object-fit: contain;
+                                                                        }
+                                                                        
+                                                                        img {
+                                                                            height: auto;
+                                                                            max-width: 100%;
+                                                                            vertical-align: middle;
+                                                                        }
+                                                                        
+                                                                        @media screen and (min-width: 61.5625em) {
+                                                                            .site-main {
+                                                                                margin-bottom: 0;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media screen and (min-width: 44.375em) {
+                                                                            .site-main {
+                                                                                margin-bottom: 0;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        #neighborhoodTab {
+                                                                            background: url(images/lakehouse-body-texture.jpg) repeat;
+                                                                            border: none;
+                                                                            padding: 0;
+                                                                            margin-bottom: 0;
+                                                                        }
+                                                                        
+                                                                        .site-main>:last-child {
+                                                                            margin-bottom: 0;
+                                                                        }
+                                                                        
+                                                                        .subCat {
+                                                                            background: #f8f8f8;
+                                                                            border-bottom: 1px solid #e3e3e3;
+                                                                        }
+                                                                        
+                                                                        .innerStr {
+                                                                            max-width: 1230px;
+                                                                            margin: auto;
+                                                                            width: 95%;
+                                                                        }
+                                                                        
+                                                                        .subCat ul {
+                                                                            margin: 0!Important;
+                                                                            padding: 0 !Important;
+                                                                            list-style: none;
+                                                                            text-align: center;
+                                                                            width: 100%;
+                                                                            background: none !Important;
+                                                                            border: none;
+                                                                            display: flex;
+                                                                        }
+                                                                        
+                                                                        .subCat .ui-tabs-active {
+                                                                            background: #83432f !important;
+                                                                        }
+                                                                        
+                                                                        .subCat li {
+                                                                            padding: 0 0!Important;
+                                                                            margin: 0 0 !IMPORTANT;
+                                                                            border: none !Important;
+                                                                            float: none !Important;
+                                                                            display: inline-flex;
+                                                                            border-right: 1px solid #e3e3e3 !Important;
+                                                                            background: none !Important;
+                                                                            border-radius: 0;
+                                                                            width: 25%;
+                                                                        }
+                                                                        
+                                                                        .subCat li.ui-tabs-active a {
+                                                                            color: #fff !Important;
+                                                                        }
+                                                                        
+                                                                        .subCat a {
+                                                                            color: #766f64 !Important;
+                                                                            font-size: 24px;
+                                                                            padding: 20px 0!Important;
+                                                                            display: block;
+                                                                            width: 100%;
+                                                                            text-transform: capitalize;
+                                                                            font-family: 'Gotham-Book', sans-serif;
+                                                                        }
+                                                                        
+                                                                        .subCat p {
+                                                                            margin: 0;
+                                                                        }
+                                                                        
+                                                                        #neighborhoodTab .block {
+                                                                            margin: 0;
+                                                                            background: #fff;
+                                                                            padding: 70px 0;
+                                                                        }
+                                                                        
+                                                                        .innerStr {
+                                                                            max-width: 1230px;
+                                                                            margin: auto;
+                                                                            width: 95%;
+                                                                        }
+                                                                        
+                                                                        @media screen and (min-width: 44.375em) {
+                                                                            h2 {
+                                                                                text-transform: capitalize;
+                                                                                color: #375e80;
+                                                                                text-align: center;
+                                                                                font-weight: 300;
+                                                                                font-size: 36px;
+                                                                                margin: 0 0 42px;
+                                                                                font-family: 'Gotham-Light';
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .event-page-heading span,
+                                                                        h2 span {
+                                                                            background: none;
+                                                                            padding: 0;
+                                                                            width: 100%;
+                                                                            display: block;
+                                                                            text-align: center;
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .event-page-heading span:before {
+                                                                            content: "";
+                                                                            background: #766f64;
+                                                                            width: 48px;
+                                                                            height: 2px;
+                                                                            position: absolute;
+                                                                            top: 23px;
+                                                                            left: 48%;
+                                                                        }
+                                                                        
+                                                                        #neighborhoodTab .block p {
+                                                                            margin: 0;
+                                                                        }
+                                                                        
+                                                                        .column.left {
+                                                                            margin-left: 0 !important;
+                                                                        }
+                                                                        
+                                                                        .block .colu {
+                                                                            margin: 40px 1% 0;
+                                                                            border: 1px solid #ccc;
+                                                                            background: #fafafa;
+                                                                            padding: 0;
+                                                                        }
+                                                                        
+                                                                        .left {
+                                                                            float: left;
+                                                                        }
+                                                                        
+                                                                        .column.left figure.figure,
+                                                                        .column.right figure.figure {
+                                                                            height: 263px;
+                                                                            overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        figure {
+                                                                            margin: 0;
+                                                                        }
+                                                                        
+                                                                        .block .column .figure img {
+                                                                            width: 100%;
+                                                                            height: 100%;
+                                                                            object-fit: cover;
+                                                                        }
+                                                                        
+                                                                        .contentBlock {
+                                                                            background: #fafafa;
+                                                                            padding: 0;
+                                                                            margin: 0;
+                                                                        }
+                                                                        
+                                                                        .rowss.text-left.heading {
+                                                                            background: #375e80;
+                                                                            padding: 10px 17px;
+                                                                        }
+                                                                        
+                                                                        .contentBlock .rowss {
+                                                                            width: 94%;
+                                                                            padding: 0;
+                                                                            text-align: center;
+                                                                            font-size: 17px;
+                                                                            color: #756e63;
+                                                                            font-family: 'Gotham-Book', sans-serif;
+                                                                            margin: 0;
+                                                                        }
+                                                                        
+                                                                        .text-left {
+                                                                            text-align: left !important;
+                                                                        }
+                                                                        
+                                                                        .text-left:before {
+                                                                            display: table;
+                                                                            content: " ";
+                                                                        }
+                                                                        
+                                                                        .contentBlock h3 {
+                                                                            font-size: 25px;
+                                                                            line-height: 27px;
+                                                                            color: #fff;
+                                                                            float: left;
+                                                                            font-weight: normal;
+                                                                            font-family: 'Gotham-Book', sans-serif;
+                                                                        }
+                                                                        
+                                                                        .Collection :hover {
+                                                                            background: #83432f !important;
+                                                                            color: #fff !Important;
+                                                                        }
+                                                                        
+                                                                        .rowss.text-left.heading .rowss {
+                                                                            text-align: right;
+                                                                        }
+                                                                        
+                                                                        .cycloneslider-slide.cycloneslider-slide-image.cycle-slide.cycle-slide-active {
+                                                                            height: 467px !important;
+                                                                        }
+                                                                        
+                                                                        @media(max-width:1600px) and (min-width:1400px) {
+                                                                            div#nbrheader {
+                                                                                min-height: 555.797px !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (min-width:768px) and (max-width:1380px) {
+                                                                            .footer_section .footer-top .footer-social .life-group-logo img {
+                                                                                height: 26px;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social .socialContent ul li a {
+                                                                                font-size: 14px;
+                                                                            }
+                                                                            div#nbrheader {
+                                                                                min-height: 458.797px !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (width:720px) {
+                                                                            .banner {
+                                                                                height: 550px;
+                                                                                background: no-repeat center center;
+                                                                                background-size: cover;
+                                                                                width: 720px;
+                                                                            }
+                                                                            div#nbrheader {
+                                                                                min-height: 250.797px !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 1280px) {
+                                                                            .col-lg-6 {
+                                                                                width: 44% !important;
+                                                                            }
+                                                                            div#nbrheader {
+                                                                                min-height: 445.797px !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 812px) {
+                                                                            .site-branding {
+                                                                                width: 220px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 812px) {
+                                                                            .site-branding {
+                                                                                margin: 13px 0 0 0!important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 480px) {
+                                                                            .site-title {
+                                                                                width: 68%;
+                                                                            }
+                                                                            .subCat ul {
+                                                                                margin: 0!Important;
+                                                                                padding: 0 !Important;
+                                                                                list-style: none;
+                                                                                text-align: center;
+                                                                                width: 100%;
+                                                                                background: none !Important;
+                                                                                border: none;
+                                                                                display: flex;
+                                                                                flex-wrap: wrap;
+                                                                            }
+                                                                            .subCat li {
+                                                                                padding: 0 0!Important;
+                                                                                margin: 0 0 !IMPORTANT;
+                                                                                border: none !Important;
+                                                                                float: none !Important;
+                                                                                display: inline-flex;
+                                                                                border-right: 1px solid #e3e3e3 !Important;
+                                                                                background: none !Important;
+                                                                                border-radius: 0;
+                                                                                width: 49%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:950px) {
+                                                                            .body {
+                                                                                overflow-x: hidden;
+                                                                            }
+                                                                            .site-header {
+                                                                                /* width: 609px; */
+                                                                                position: relative;
+                                                                                background: #fff;
+                                                                                box-shadow: 0px 1px 3px -3px #929292;
+                                                                                padding-top: 0px !important;
+                                                                                height: 45px;
+                                                                            }
+                                                                            div#site-header-menu {
+                                                                                display: none;
+                                                                            }
+                                                                            .homebanner .coty {
+                                                                                font-size: 74px;
+                                                                            }
+                                                                            h2 {
+                                                                                text-transform: capitalize;
+                                                                                color: #375e80;
+                                                                                text-align: center;
+                                                                                font-weight: 300;
+                                                                                font-size: 28px;
+                                                                                margin: 0 0 6px;
+                                                                                font-family: 'Gotham-Light';
+                                                                            }
+                                                                            .natureSection .boxes {
+                                                                                padding: 0;
+                                                                                height: 294px;
+                                                                            }
+                                                                            .teda {
+                                                                                width: auto;
+                                                                                display: flex;
+                                                                                flex-direction: column-reverse;
+                                                                            }
+                                                                            .teda:nth-child(even) {
+                                                                                display: flex;
+                                                                                flex-direction: column-reverse;
+                                                                            }
+                                                                            .imgDiv {
+                                                                                padding: 17%;
+                                                                                width: 65% !important;
+                                                                                height: 126px;
+                                                                            }
+                                                                            #locationSection {
+                                                                                padding: 20px 0;
+                                                                            }
+                                                                            .locationContent {
+                                                                                padding: 1% 3%;
+                                                                                width: 93%;
+                                                                                text-align: center;
+                                                                            }
+                                                                            .locationContent p {
+                                                                                text-align: center;
+                                                                            }
+                                                                            .container h1:after {
+                                                                                left: auto;
+                                                                                right: 0;
+                                                                                content: "";
+                                                                                background: #cacaca;
+                                                                                height: 2px;
+                                                                                width: 26%;
+                                                                                position: absolute;
+                                                                                top: 17px;
+                                                                            }
+                                                                            .container h1:before {
+                                                                                content: "";
+                                                                                background: #cacaca;
+                                                                                height: 2px;
+                                                                                width: 22%;
+                                                                                left: 0;
+                                                                                position: absolute;
+                                                                                top: 17px;
+                                                                            }
+                                                                            .container h1 {
+                                                                                position: relative;
+                                                                                margin: 0 auto 22px;
+                                                                                font-size: 32px;
+                                                                                color: #375e80;
+                                                                                text-align: center;
+                                                                            }
+                                                                            .txt1 {
+                                                                                margin-left: 0px;
+                                                                            }
+                                                                            .form2 {
+                                                                                padding-left: 8px;
+                                                                                padding-right: 0px;
+                                                                            }
+                                                                            .check1 {
+                                                                                padding-right: 116px;
+                                                                                padding-left: 0px;
+                                                                                padding-bottom: 3px;
+                                                                            }
+                                                                            .text-center {
+                                                                                text-align: center;
+                                                                                padding-right: 0px;
+                                                                            }
+                                                                            .privacy {
+                                                                                max-width: 952px;
+                                                                                margin: 0 auto;
+                                                                                padding: 0 12px;
+                                                                                font-size: 15px;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social .life-group-logo {
+                                                                                width: 100%;
+                                                                                text-align: center;
+                                                                                margin-bottom: 20px;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social .socialContent ul {
+                                                                                margin: 0;
+                                                                                padding: 0;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social .socialContent ul li {
+                                                                                display: block;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social .socialContent ul li a {
+                                                                                font-size: 15px;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social {
+                                                                                display: block;
+                                                                                text-align: center;
+                                                                            }
+                                                                            .footer_section .footer-middle .footer-logo {
+                                                                                display: flex;
+                                                                                padding: 39px 8% 0;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright {
+                                                                                padding: 65px 5% 120px;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright .copyrightLinks-div {
+                                                                                width: 100%;
+                                                                                flex-wrap: wrap;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightCaption {
+                                                                                text-align: left;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright .copyright-text {
+                                                                                font-size: 11px;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul {
+                                                                                width: 70%;
+                                                                                flex-wrap: wrap;
+                                                                                text-align: left;
+                                                                                margin: 0;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks ul li {
+                                                                                width: 100%;
+                                                                                font-size: 13px;
+                                                                            }
+                                                                            .footer_section .footer-lower .footer-copyright .copyrightLinks-div .copyrightLinks span {
+                                                                                width: 30%;
+                                                                                align-items: center;
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                text-align: right;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:561px) {
+                                                                            .imgDiv {
+                                                                                padding: 17%;
+                                                                                width: 64% !important;
+                                                                                height: 138px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:701px) {
+                                                                            .container {
+                                                                                display: none;
+                                                                            }
+                                                                            .footer_section .footer-top .footer-social .life-group-logo img {
+                                                                                max-width: 330px;
+                                                                                height: 26px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:390px) {
+                                                                            .homebanner .coty {
+                                                                                font-size: 27px;
+                                                                                line-height: 53px;
+                                                                                letter-spacing: 0;
+                                                                                margin-top: 15px;
+                                                                                /* margin-bottom: 18px; */
+                                                                                color: #fff;
+                                                                                font-family: "Gotham-Bold";
+                                                                                font-weight: bold;
+                                                                                font-style: normal;
+                                                                            }
+                                                                            .banner_content h2 {
+                                                                                font-size: 21px;
+                                                                            }
+                                                                            .subCat a {
+                                                                                font-size: 16px;
+                                                                            }
+                                                                            .innerStr article {
+                                                                                font-size: 13px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media screen and (max-width: 920px) {
+                                                                            .site-header-menu {
+                                                                                margin: 0 0;
+                                                                                width: 100%;
+                                                                                position: absolute;
+                                                                                top: 74px;
+                                                                                left: 0;
+                                                                                z-index: 99999;
+                                                                                background: #fff;
+                                                                                border-top: 1px solid #ccc;
+                                                                                border-bottom: 1px solid #ccc;
+                                                                            }
+                                                                            .site-header-menu.toggled-on {
+                                                                                display: block !important;
+                                                                            }
+                                                                            .site-header.toggled-on {
+                                                                                height: 105px;
+                                                                            }
+                                                                            .toggled-on .main-navigation li {
+                                                                                border-top: none;
+                                                                                position: relative;
+                                                                                float: left;
+                                                                                margin: 5px 0;
+                                                                                width: 100%;
+                                                                                border-top: none;
+                                                                                border-bottom: 1px solid #eee;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:1040px) {
+                                                                            div#site-header-menu {
+                                                                                display: none;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (min-width:1190px) {
+                                                                            #menu-toggle {
+                                                                                display: none;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media screen and (max-width: 1194px) {
+                                                                            .site-header {
+                                                                                /* width: 609px; */
+                                                                                position: relative;
+                                                                                background: #fff;
+                                                                                box-shadow: 0px 1px 3px -3px #929292;
+                                                                                padding-top: 0px !important;
+                                                                                height: 45px;
+                                                                            }
+                                                                            .menu-toggle {
+                                                                                font-size: 0;
+                                                                                font-size: 0;
+                                                                                margin: 28px 0 17px;
+                                                                                padding: 11px 19px;
+                                                                                float: right;
+                                                                                background: url(https://www.avanceliving.com/wp-content/themes/aliento/images/res-menu.png) no-repeat;
+                                                                                border: none;
+                                                                            }
+                                                                            .site-header-menu {
+                                                                                display: none;
+                                                                            }
+                                                                            .site-header-menu.toggled-on {
+                                                                                display: block;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .menu-toggle {
+                                                                            background: rgba(0, 0, 0, 0) url(https://www.avanceliving.com/wp-content/themes/aliento/images/res-menu.png) no-repeat scroll 0 0;
+                                                                            border: medium none;
+                                                                            float: right;
+                                                                            font-size: 0;
+                                                                            margin: 33px 2px 0;
+                                                                            padding: 37px 2px 0;
+                                                                            width: 42px;
+                                                                        }
+                                                                        
+                                                                        @media (width: 414px) {
+                                                                            .homebanner .coty {
+                                                                                font-size: 49px;
+                                                                            }
+                                                                            .banner_content h2 {
+                                                                                font-size: 24px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 420px) {
+                                                                            .homebanner .coty {
+                                                                                font-size: 41px;
+                                                                            }
+                                                                            .banner_content h2 {
+                                                                                font-size: 23px;
+                                                                            }
+                                                                            div#nbrheader {
+                                                                                min-height: 145.797px !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:1090px) and (min-width:950px) {
+                                                                            div#page {
+                                                                                margin-left: 33px !important;
+                                                                            }
+                                                                            div#nbrheader {
+                                                                                min-height: 376.797px !important;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width:290px) {
+                                                                            div#nbrheader {
+                                                                                min-height: 102.797px !important;
+                                                                            }
+                                                                            .subCat a {
+                                                                                color: #766f64 !Important;
+                                                                                font-size: 15px;
+                                                                            }
+                                                                        }

@@ -1,0 +1,14 @@
+
+-----------------get header---------------------------
+
+$menuLocations = get_nav_menu_locations();
+$menuID = $menuLocations['primary_menu']; 
+
+$primaryNav = wp_get_nav_menu_items($menuID);
+echo"<pre>";
+print_r($primaryNav);
+echo"</pre>";
+
+
+
+
